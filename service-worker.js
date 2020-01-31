@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Desafio-Grupo-Tesseract/precache-manifest.0a45542905043ddd1d75a00ed133ee20.js"
+  "/Desafio-Grupo-Tesseract/precache-manifest.303939ec93ceb5085cd01f27e23d2dbe.js"
 );
 
 self.addEventListener('message', (event) => {

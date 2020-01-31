@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Desafio-Grupo-Tesseract/static/css/main.2faac570.chunk.css",
-    "main.js": "/Desafio-Grupo-Tesseract/static/js/main.fa939454.chunk.js",
-    "main.js.map": "/Desafio-Grupo-Tesseract/static/js/main.fa939454.chunk.js.map",
+    "main.css": "/Desafio-Grupo-Tesseract/static/css/main.fd105294.chunk.css",
+    "main.js": "/Desafio-Grupo-Tesseract/static/js/main.42559781.chunk.js",
+    "main.js.map": "/Desafio-Grupo-Tesseract/static/js/main.42559781.chunk.js.map",
     "runtime-main.js": "/Desafio-Grupo-Tesseract/static/js/runtime-main.6ddd596a.js",
     "runtime-main.js.map": "/Desafio-Grupo-Tesseract/static/js/runtime-main.6ddd596a.js.map",
     "static/js/2.40f6d40c.chunk.js": "/Desafio-Grupo-Tesseract/static/js/2.40f6d40c.chunk.js",
     "static/js/2.40f6d40c.chunk.js.map": "/Desafio-Grupo-Tesseract/static/js/2.40f6d40c.chunk.js.map",
     "index.html": "/Desafio-Grupo-Tesseract/index.html",
-    "precache-manifest.0a45542905043ddd1d75a00ed133ee20.js": "/Desafio-Grupo-Tesseract/precache-manifest.0a45542905043ddd1d75a00ed133ee20.js",
+    "precache-manifest.303939ec93ceb5085cd01f27e23d2dbe.js": "/Desafio-Grupo-Tesseract/precache-manifest.303939ec93ceb5085cd01f27e23d2dbe.js",
     "service-worker.js": "/Desafio-Grupo-Tesseract/service-worker.js",
-    "static/css/main.2faac570.chunk.css.map": "/Desafio-Grupo-Tesseract/static/css/main.2faac570.chunk.css.map",
+    "static/css/main.fd105294.chunk.css.map": "/Desafio-Grupo-Tesseract/static/css/main.fd105294.chunk.css.map",
     "static/js/2.40f6d40c.chunk.js.LICENSE.txt": "/Desafio-Grupo-Tesseract/static/js/2.40f6d40c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6ddd596a.js",
     "static/js/2.40f6d40c.chunk.js",
-    "static/css/main.2faac570.chunk.css",
-    "static/js/main.fa939454.chunk.js"
+    "static/css/main.fd105294.chunk.css",
+    "static/js/main.42559781.chunk.js"
   ]
 }
