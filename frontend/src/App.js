@@ -1,14 +1,21 @@
 import React, { useState, useEffect } from 'react';
 import api from './services/api';
 import './globals.css';
+import './App.css';
 
 const Members = ({listOfMembers}) => {
   return (
-    <ul>
+    <ul id="membersContainer">
       {listOfMembers.map((member, index) => {
-        console.log(member);
         return (
-          <li key={index}>{member.login}</li>
+          <li key={index} className="memberContainer">
+            <h2 className="memberListTitle">{member.login}</h2>
+            <img
+              className="memberListImage"
+              src={member.avatar_url} 
+              alt={`${member.login} profile`}
+            />
+          </li>
         );
       })}
     </ul>
