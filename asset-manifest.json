@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Desafio-Grupo-Tesseract/frontend/static/css/main.2faac570.chunk.css",
-    "main.js": "/Desafio-Grupo-Tesseract/frontend/static/js/main.192a3367.chunk.js",
-    "main.js.map": "/Desafio-Grupo-Tesseract/frontend/static/js/main.192a3367.chunk.js.map",
-    "runtime-main.js": "/Desafio-Grupo-Tesseract/frontend/static/js/runtime-main.51656176.js",
-    "runtime-main.js.map": "/Desafio-Grupo-Tesseract/frontend/static/js/runtime-main.51656176.js.map",
-    "static/js/2.40f6d40c.chunk.js": "/Desafio-Grupo-Tesseract/frontend/static/js/2.40f6d40c.chunk.js",
-    "static/js/2.40f6d40c.chunk.js.map": "/Desafio-Grupo-Tesseract/frontend/static/js/2.40f6d40c.chunk.js.map",
-    "index.html": "/Desafio-Grupo-Tesseract/frontend/index.html",
-    "precache-manifest.90d046f5cb4239b07d40315c65205089.js": "/Desafio-Grupo-Tesseract/frontend/precache-manifest.90d046f5cb4239b07d40315c65205089.js",
-    "service-worker.js": "/Desafio-Grupo-Tesseract/frontend/service-worker.js",
-    "static/css/main.2faac570.chunk.css.map": "/Desafio-Grupo-Tesseract/frontend/static/css/main.2faac570.chunk.css.map",
-    "static/js/2.40f6d40c.chunk.js.LICENSE.txt": "/Desafio-Grupo-Tesseract/frontend/static/js/2.40f6d40c.chunk.js.LICENSE.txt"
+    "main.css": "/desafio-grupo-tesseract/static/css/main.2faac570.chunk.css",
+    "main.js": "/desafio-grupo-tesseract/static/js/main.192a3367.chunk.js",
+    "main.js.map": "/desafio-grupo-tesseract/static/js/main.192a3367.chunk.js.map",
+    "runtime-main.js": "/desafio-grupo-tesseract/static/js/runtime-main.fff4ed91.js",
+    "runtime-main.js.map": "/desafio-grupo-tesseract/static/js/runtime-main.fff4ed91.js.map",
+    "static/js/2.40f6d40c.chunk.js": "/desafio-grupo-tesseract/static/js/2.40f6d40c.chunk.js",
+    "static/js/2.40f6d40c.chunk.js.map": "/desafio-grupo-tesseract/static/js/2.40f6d40c.chunk.js.map",
+    "index.html": "/desafio-grupo-tesseract/index.html",
+    "precache-manifest.075b78d900cadf5f5965b562fe87db3c.js": "/desafio-grupo-tesseract/precache-manifest.075b78d900cadf5f5965b562fe87db3c.js",
+    "service-worker.js": "/desafio-grupo-tesseract/service-worker.js",
+    "static/css/main.2faac570.chunk.css.map": "/desafio-grupo-tesseract/static/css/main.2faac570.chunk.css.map",
+    "static/js/2.40f6d40c.chunk.js.LICENSE.txt": "/desafio-grupo-tesseract/static/js/2.40f6d40c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.51656176.js",
+    "static/js/runtime-main.fff4ed91.js",
     "static/js/2.40f6d40c.chunk.js",
     "static/css/main.2faac570.chunk.css",
     "static/js/main.192a3367.chunk.js"
