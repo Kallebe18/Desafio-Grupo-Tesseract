@@ -20,10 +20,13 @@ const Members = ({listOfMembers, setSelected}) => {
       {listOfMembers.map((member, index) => {
         return (
           <li key={index} className="memberContainer">
-            <h2 className="memberListTitle">{member.login}</h2>
+            <h2 
+              className="memberListTitle"
+              onClick={() => {setSelected(member); window.scrollTo(0, 0)}}
+            >{member.login}</h2>
             <img
               className="memberListImage"
-              src={member.avatar_url} 
+              src={member.avatar_url}
               alt={`${member.login} profile`}
               onClick={() => {setSelected(member); window.scrollTo(0, 0)}}
             />
@@ -42,8 +45,12 @@ const SelectedMember = ({member}) => {
         <ul id="selectedMemberInfo">
           <li>{`Nome: ${member.login}`}</li>
           <li>{`Repositórios: ${member.public_repos}`}</li>
-          <li>{`Seguidores: ${member.login}`}</li>
-          <li>{`Ultima vez logado: ${member.updated_at}`}</li>
+          <li>{`Seguidores: ${member.followers}`}</li>
+          <li>
+            {`Ultima vez logado: ${member.updated_at.split('T')[0].split('-')[2]}/${member.updated_at.split('T')[0].split('-')[1]}/${member.updated_at.split('T')[0].split('-')[0]}
+            ${member.updated_at.split('T')[1].replace('Z', '')}
+            `}
+          </li>
         </ul>
       </div>
   );
@@ -78,9 +85,8 @@ function App() {
           checkFocus={e => setSearching(e)} 
           search={m => {
             setMembersSearch(members.filter(member => {
-              if(member.login.toLowerCase().match(m.toLowerCase())) {
-                return member;
-              }
+              if(member.login.toLowerCase().match(m.toLowerCase())) return member
+              return '';
             }));
           }}
         />
