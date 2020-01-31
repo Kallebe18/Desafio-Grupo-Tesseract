@@ -11,3 +11,9 @@ ol, ul {
 html, body, #root {
   min-height: 100%;
 }
+
+body {
+  background-image: linear-gradient(#fff, #000);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
