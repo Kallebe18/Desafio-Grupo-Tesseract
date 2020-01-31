@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/desafio-grupo-tesseract/static/css/main.2faac570.chunk.css",
-    "main.js": "/desafio-grupo-tesseract/static/js/main.192a3367.chunk.js",
-    "main.js.map": "/desafio-grupo-tesseract/static/js/main.192a3367.chunk.js.map",
+    "main.js": "/desafio-grupo-tesseract/static/js/main.dd9eb200.chunk.js",
+    "main.js.map": "/desafio-grupo-tesseract/static/js/main.dd9eb200.chunk.js.map",
     "runtime-main.js": "/desafio-grupo-tesseract/static/js/runtime-main.fff4ed91.js",
     "runtime-main.js.map": "/desafio-grupo-tesseract/static/js/runtime-main.fff4ed91.js.map",
     "static/js/2.40f6d40c.chunk.js": "/desafio-grupo-tesseract/static/js/2.40f6d40c.chunk.js",
     "static/js/2.40f6d40c.chunk.js.map": "/desafio-grupo-tesseract/static/js/2.40f6d40c.chunk.js.map",
     "index.html": "/desafio-grupo-tesseract/index.html",
-    "precache-manifest.075b78d900cadf5f5965b562fe87db3c.js": "/desafio-grupo-tesseract/precache-manifest.075b78d900cadf5f5965b562fe87db3c.js",
+    "precache-manifest.8302218f2ac14ae648e51275d0dfca24.js": "/desafio-grupo-tesseract/precache-manifest.8302218f2ac14ae648e51275d0dfca24.js",
     "service-worker.js": "/desafio-grupo-tesseract/service-worker.js",
     "static/css/main.2faac570.chunk.css.map": "/desafio-grupo-tesseract/static/css/main.2faac570.chunk.css.map",
     "static/js/2.40f6d40c.chunk.js.LICENSE.txt": "/desafio-grupo-tesseract/static/js/2.40f6d40c.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.fff4ed91.js",
     "static/js/2.40f6d40c.chunk.js",
     "static/css/main.2faac570.chunk.css",
-    "static/js/main.192a3367.chunk.js"
+    "static/js/main.dd9eb200.chunk.js"
   ]
 }
