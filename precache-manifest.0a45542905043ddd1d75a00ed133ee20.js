@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "41a8cf1f678f1846117c1cb4023bddc6",
+    "revision": "8557a97c3042aca03dfa5e9a542c1adc",
     "url": "/Desafio-Grupo-Tesseract/index.html"
   },
   {
-    "revision": "13fbe9b40931a11e217c",
+    "revision": "c78688f51bc2d3735195",
     "url": "/Desafio-Grupo-Tesseract/static/css/main.2faac570.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Desafio-Grupo-Tesseract/static/js/2.40f6d40c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "13fbe9b40931a11e217c",
-    "url": "/Desafio-Grupo-Tesseract/static/js/main.dd9eb200.chunk.js"
+    "revision": "c78688f51bc2d3735195",
+    "url": "/Desafio-Grupo-Tesseract/static/js/main.fa939454.chunk.js"
   },
   {
     "revision": "86f8b7b73d25b3662fb3",
