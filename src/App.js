@@ -46,7 +46,7 @@ const SelectedMember = ({member}) => {
       <div id="selectedMemberContainer">
         <img id="selectedMemberImg" src={member.avatar_url} alt={`${member.login} profile`}/>
         <ul id="selectedMemberInfo">
-          <li>{`Nome: ${member.login}`}</li>
+          <li>{`Nome: ${member.name}`}</li>
           <li>{`Repositórios: ${member.public_repos}`}</li>
           <li>{`Seguidores: ${member.followers}`}</li>
           <li>
