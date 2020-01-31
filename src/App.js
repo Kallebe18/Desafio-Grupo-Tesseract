@@ -9,8 +9,11 @@ const SearchBar = ({checkFocus, search}) => {
       id="searchBar"
       placeholder="Pesquisar usuario"
       type="text" name="member" 
-      onFocus={() => checkFocus(1)} onBlur={() => checkFocus(0)} 
-      onChange={e => search(e.target.value)}/>
+      onChange={e => {
+        search(e.target.value);
+        if(e.target.value.length > 0) checkFocus(1);
+        else checkFocus(0)
+      }}/>
   );
 }
 
@@ -91,7 +94,7 @@ function App() {
           }}
         />
         <Members 
-          listOfMembers={(searching && searchList.length > 0) ? searchList : members} 
+          listOfMembers={searching ? searchList : members} 
           setSelected={m => getSelectedMemberInfo(m)}/>
       </div>
     </div>
