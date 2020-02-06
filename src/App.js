@@ -41,6 +41,7 @@ const Members = ({listOfMembers, setSelected}) => {
 }
 
 const SelectedMember = ({member}) => {
+  const member_date = new Date(member.updated_at);
   return (
     member !== '' &&
       <div id="selectedMemberContainer">
@@ -50,8 +51,8 @@ const SelectedMember = ({member}) => {
           <li>{`Repositórios: ${member.public_repos}`}</li>
           <li>{`Seguidores: ${member.followers}`}</li>
           <li>
-            {`Ultima vez logado: ${member.updated_at.split('T')[0].split('-')[2]}/${member.updated_at.split('T')[0].split('-')[1]}/${member.updated_at.split('T')[0].split('-')[0]}
-            ${member.updated_at.split('T')[1].replace('Z', '')}
+            {`Ultima vez logado: ${member_date.getFullYear()}/${member_date.getMonth()+1}/${member_date.getDate()+1}
+            ${member_date.getHours()}:${member_date.getMinutes()}:${member_date.getSeconds()}
             `}
           </li>
         </ul>
@@ -88,7 +89,7 @@ function App() {
           checkFocus={e => setSearching(e)} 
           search={m => {
             setMembersSearch(members.filter(member => {
-              if(member.login.toLowerCase().match(m.toLowerCase())) return member
+              if(member.login.toLowerCase().includes(m.toLowerCase())) return member
               return '';
             }));
           }}
